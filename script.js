@@ -48,3 +48,5 @@ async function getJokes() {
 // Event Listeners
 button.addEventListener('click', getJokes);
 audio.addEventListener('ended', toggleButton);
+
+// Click not supported by ios -- need to sort out
